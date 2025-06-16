@@ -9,8 +9,13 @@ list1 = ['Hello', 'world', 'python' ,'programming',1,2.4, True,None,"Hello"]
 #list.append ('Append string')
 #print(list1)
 #print(len(list1))
-list1.reverse()# reversing the list
-print(list1, end=" ") # printing reversed list
+#list1.reverse()# reversing the list
+#print(list1, end=" ") # printing reversed list
+list1. remove(2.4)
+print(list1)
+list1.pop()
+print(list1)
+
 # printing using len function
 #for i in range (len(list1)):
     #print(list1[i], end= " ")
