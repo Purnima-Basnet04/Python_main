@@ -31,4 +31,18 @@ num2 = 15
 
 #print(num1>=num2 or num2<=num1)
 #print(num1<=num2 or num2<=num1)
-print (not num1>num2)
+#print (not num1>num2)
+
+#assignment operator =  , +=, -=, *=, /=, %=, **= (shortcut operator)
+num1 = num1+1
+print(num1)
+
+num1+=1
+print(num1)
+
+num1 **=2
+print(num1)
+
+# conditional operator:(condition) ? True expression : False Expression
+
+
