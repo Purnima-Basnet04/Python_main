@@ -16,6 +16,9 @@ dict1["email"]="pathshala123@gmail.com"
 dict1.update({"phone": 9876543210})
 print("dictionary after updating ", dict1)
 
+#setdefault()in dictionary
+dict1.setdefault("city", "kathmandu")
+
 #get function in dictionary
 print(dict1.get("name")) # printing the value of key 'name'
 
