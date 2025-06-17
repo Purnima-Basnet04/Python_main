@@ -1,6 +1,7 @@
 #list in python
 
 list1 = ['Hello', 'world', 'python' ,'programming',1,2.4, True,None,"Hello"]
+list2=[5,8,11,20,34,49,1]
 #print(list1) # printing whole list
 #print(list1[1])#printing through index
 #print(list[2:5])#printing through index range
@@ -11,10 +12,22 @@ list1 = ['Hello', 'world', 'python' ,'programming',1,2.4, True,None,"Hello"]
 #print(len(list1))
 #list1.reverse()# reversing the list
 #print(list1, end=" ") # printing reversed list
-list1. remove(2.4)
-print(list1)
-list1.pop()
-print(list1)
+#list1. remove(2.4)
+#print(list1)
+#list1.pop()
+#print(list1)
+#list2.sort()
+#print("sorted list: ", list2) #shorting the list in ascending order")
+
+#list2.sort(reverse=True)
+#print("sorted list: ", list2) #shorting the list in descending order")
+
+list2.insert(2,10) #inserting element at index 2
+print (list2)
+
+#for claring list 
+list2.clear()
+print(list2)
 
 # printing using len function
 #for i in range (len(list1)):
