@@ -16,18 +16,18 @@ list2=[5,8,11,20,34,49,1]
 #print(list1)
 #list1.pop()
 #print(list1)
+
 #list2.sort()
 #print("sorted list: ", list2) #shorting the list in ascending order")
 
-#list2.sort(reverse=True)
+list2.sort(reverse=True)
 #print("sorted list: ", list2) #shorting the list in descending order")
 
-list2.insert(2,10) #inserting element at index 2
-print (list2)
+list2.insert(2,10) #inserting element at index 2print (list2)
 
-#for claring list 
+#for clearing list 
 list2.clear()
-print(list2)
+#print(list2)
 
 # printing using len function
 #for i in range (len(list1)):
@@ -37,3 +37,4 @@ print(list2)
 #printing every items in list using for loop
 #for item in list1:
      #print(item, end=" ")
+print(list1+list2)
