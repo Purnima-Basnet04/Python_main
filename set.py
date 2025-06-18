@@ -20,4 +20,4 @@ set2 = {"hello", 6,3.4,"text",99}
 # print("difference: ",set1 -set2)
 
 #symmetric differences
-print("symmetric difference :", set1.symmetric_difference(set2))
+# print("symmetric difference :", set1.symmetric_difference(set2))
