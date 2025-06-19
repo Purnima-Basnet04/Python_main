@@ -38,7 +38,8 @@ obj3 = C
 result = obj3.sum(10)
 print("The sum is", result)
 result1 = obj3.sum(10,20,30)
-print("The sum is", result1)
+print("The sum is : ", result1)
+print("This is sum: ", result1, " !")
 
 #using args
 result2 = obj3.add(10,20,30,40 ,50 ,90)
