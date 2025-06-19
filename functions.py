@@ -24,12 +24,12 @@ def displayData(num1, num2):
 
 
 
-displayHelloWorld()
-result = add()+10
-print(result)
+displayHelloWorld()# calling the function
+result = add()+10 # calling the function and storing the result in a variable
+print(result)# printing the result
 
 name="john"
-displayName(name)
+displayName(name) # calling function with argument
 
 result1 =displayData (5, 6)
 print("The producrts of 5 and 6 is :", result1)

@@ -1,3 +1,4 @@
+# Encapuslation in python
 class Vehicle:
     #public function
     def displayName():
@@ -8,7 +9,7 @@ class Vehicle:
         return "Mustang"
 
 #private function
-    def _engine():
+    def __engine():
         return "V8"
 
 # public function to display private and protected data
@@ -20,6 +21,6 @@ class Vehicle:
 
 
 vehicle= Vehicle
-print(vehicle.displayName())# accessing public function
-print(vehicle._displayModel())# accessing protected function
-print(vehicle.displayDetails())# accessing public function to display priovate and protected data
+# print(vehicle.displayName())# accessing public function
+# print(vehicle._displayModel())# accessing protected function
+# print(vehicle.displayDetails())# accessing public function to display priovate and protected data

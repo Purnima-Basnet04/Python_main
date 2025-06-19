@@ -17,8 +17,8 @@ obj = A
 #obj.displayClassA()
 obj2= B
 # obj2.displayClassB()# output: This is class B
-# obj2.displayClassA()# output: This is class A inherited by class B
+# obj2.displayClassA()# output: This is class A inheritedd by class B
 obj3= C
 obj3.displayClassC()
 obj3.displayClassB()
-obj3.displayClassA()
+obj3.displayClassA()# output: This is class A inherited by class B inherited by class C
